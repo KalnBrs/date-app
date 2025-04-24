@@ -1,0 +1,23 @@
+{
+  "name": "dateapp",
+  "version": "1.0.0",
+  "description": "Show local time",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalnBrs/date-app.git"
+  },
+  "author": "Kaelan Brose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KalnBrs/date-app/issues"
+  },
+  "homepage": "https://github.com/KalnBrs/date-app#readme",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "micromodal": "^0.6.1"
+  }
+}

@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.editButton {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: .5em;
+  padding-bottom: 2px;
+  border: none;
+  background-color: white;
+}
+
+.editButton img {
+  width: 1em;
+  top: 0;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal__container {
+  background: white;
+  margin: 10% auto;
+  padding: 2em;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.modal.is-open {
+  display: block;
+}
+
+#timezone 
+
+#time {
+  font-size: 48px;
+  font-weight: bold;
+}
+#date {
+  font-size: 24px;
+  margin-top: 10px;
+}
